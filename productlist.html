@@ -20,53 +20,246 @@
             </ul>
         </nav>
     </header>
-    <h2>Footwear</h2>
-    <div class="container">
-        <article class="Product">
-            <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
-                    alt="Cell Exsis Sneaker" />
-                <h3>Cell Exsis Sneaker</h3>
-            </a>
-            <p class="brand">Puma</p>
-            <p class="price">DKK 3999,-</p>
+    <main>
+        <h2>Footwear</h2>
+        <div class="container">
+            <template id="productTemplate">
+                <article class="Product">
+                    <a href="product.html"><img class="productImage"
+                            src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp" alt="Cell Exsis Sneaker" />
+                        <h3>Cell Exsis Sneaker</h3>
+                    </a>
+                    <p class="brand">Puma</p>
+                    <p class="price">DKK 3999,-</p>
 
-        </article>
-        <article class="Product onSale">
-            <a href="product.html"> <img src="https://kea-alt-del.dk/t7/images/webp/640/1542.webp"
-                    alt="Ballistic Rubber Shoe" />
-                <h3>Ballistic Rubber Shoe</h3>
-            </a>
-            <p class="brand">Puma</p>
-            <p class="price"> DKK 3499,-</p>
-            <p class="discount">
-                <p>Now DKK 2414,-</p>
-                <p>-31%</p>
-            </p>
-        </article>
-        <article class="Product SoldOut">
-            <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1549.webp"
-                    alt="Speed Cat Shoe" />
-                <h3>Speed Cat Shoe</h3>
-            </a>
-            <p class="brand">Puma</p>
-            <p class="price">DKK 3299,-</p>
-            <p class="SoldOut">Out of stock</p>
+                </article>
+            </template>
+            <!--- <article class="ProductonSale">
+                <a href="product.html"> <img src="https://kea-alt-del.dk/t7/images/webp/640/1542.webp"
+                        alt="Ballistic Rubber Shoe" />
+                    <h3>Ballistic Rubber Shoe</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price"> DKK 3499,-</p>
+                <p class="discount">
+                    <p>Now DKK 2414,-</p>
+                    <p>-31%</p>
+                </p>
+            </article>
+            <article class="ProductSoldOut">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1549.webp"
+                        alt="Speed Cat Shoe" />
+                    <h3>Speed Cat Shoe</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3299,-</p>
+                <p class="SoldOut">Out of stock</p>
 
-        </article>
-        <article class="Product">
-            <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1541.webp"
-                    alt="Ballistic Spike hite Green Shoe" />
-                <h3>Ballistic Spike hite Green Shoe</h3>
-            </a>
-            <p class="brand">Puma</p>
-            <p class="price">DKK 5299,-</p>
-            <div class="discount">
-                <p>Now DKK 3974,-</p>
-                <p>-25%</p>
-            </div>
+            </article>
+            <article class="ProductSoldOutonSale">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1541.webp"
+                        alt="Ballistic Spike hite Green Shoe" />
+                    <h3>Ballistic Spike hite Green Shoe</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 5299,-</p>
+                <div class="discount">
+                    <p>Now DKK 3974,-</p>
+                    <p>-25%</p>
+                </div>
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
 
-        </article>
-    </div>
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article>
+            <article class="Product">
+                <a href="product.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
+                        alt="Cell Exsis Sneaker" />
+                    <h3>Cell Exsis Sneaker</h3>
+                </a>
+                <p class="brand">Puma</p>
+                <p class="price">DKK 3999,-</p>
+
+            </article> -->
+        </div>
+    </main>
 </body>
+<script src="productlist.js"></script>
 
 </html>
