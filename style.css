@@ -190,3 +190,12 @@ footer {
 a:hover {
   color: #bf2c2c;
 }
+
+.category {
+  display: flex;
+  flex-flow: row;
+}
+
+li a {
+  text-decoration: none;
+}
