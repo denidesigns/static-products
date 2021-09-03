@@ -1,0 +1,1 @@
+const url = "https://kea-alt-del.dk/t7/api/categories"
