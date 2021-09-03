@@ -31,11 +31,13 @@ function showProduct(product) {
 
     if (product.discounted) {
         copy.querySelector("article").classList, add(ProductOnSale);
-        copy.querySelector(".discounted p").textContent = product.price / product.discount;
+        copy.querySelector(".discount").textContent = product.price / product.discount;
     }
 
-    copy.querySelector("img.productImage").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
+    copy.querySelector(".price").textContent = product.price;
 
+
+    copy.querySelector("img.productImage").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 
     const parent = document.querySelector("main");
 
